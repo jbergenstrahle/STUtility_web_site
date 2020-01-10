@@ -22,24 +22,18 @@ navbar:
   right:
   - icon: fa-github
     text: Source code
-    href: https://github.com/ludvigla/STUtility_web_site
+    href: https://github.com/jbergenstrahle/STUtility_web_site
 output:
   workflowr::wflow_html:
     theme: darkly
     css: style.css
-    number_sections: false
+    number_sections: no
     toc: yes
     toc_depth: 3
     toc_float:
-      collapsed: false
-      smooth_scroll: true
+      collapsed: no
+      smooth_scroll: yes
   pdf_document:
-    number_sections: false
+    number_sections: no
     toc: yes
     toc_depth: 3
-#output:
-#  workflowr::wflow_html:
-#    toc: yes
-#    toc_float: yes
-#    theme: cosmo
-#    highlight: textmate
